@@ -10,7 +10,6 @@ namespace MyFirstApplication
             Console.WriteLine("Dev 1 Commit");
             Console.WriteLine("Dev 2 Commit");
             
-            Console.WriteLine("Changes");
         }
     }
 }

@@ -12,6 +12,7 @@ namespace MyFirstApplication
         {
             Console.WriteLine("Hello World Dev");
             Console.WriteLine("Dev 1 Commit");
+            Console.WriteLine("Dev 2 Commit");
 
         }
     }

@@ -11,6 +11,8 @@ namespace MyFirstApplication
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World Dev");
+            Console.WriteLine("Dev 1 Commit");
+
         }
     }
 }

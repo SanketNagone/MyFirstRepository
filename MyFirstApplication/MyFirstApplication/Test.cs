@@ -8,5 +8,10 @@ namespace MyFirstApplication
 {
     class Test
     {
+        public int MyProperty { get; set; }
+        public Test()
+        {
+
+        }
     }
 }

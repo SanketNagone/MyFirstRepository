@@ -26,6 +26,11 @@ namespace MyFirstApplication
  
         }
 
+        public void Delete()
+        {
+
+        }
+
         public void Get()
         {
 

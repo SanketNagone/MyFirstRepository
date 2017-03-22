@@ -25,5 +25,10 @@ namespace MyFirstApplication
         {
  
         }
+
+        public void Get()
+        {
+
+        }
     }
 }

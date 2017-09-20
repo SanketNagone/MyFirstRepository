@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace MyFirstApplication
 {
@@ -16,5 +17,23 @@ namespace MyFirstApplication
             Console.WriteLine("New Feature Changes 2");
             Console.WriteLine("New Feature Changes 3");
         }
+    }
+
+
+    public class TestSonar
+    {
+        int hascode = 0;
+        public List<String> names { get; set; }
+
+        public override int GetHashCode()
+        {
+            foreach (string name in names)
+            {
+                hascode += name.GetHashCode();
+            }
+
+            return hascode;
+        }
+
     }
 }

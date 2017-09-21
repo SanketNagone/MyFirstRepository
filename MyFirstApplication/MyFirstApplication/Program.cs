@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace MyFirstApplication
 {
-    internal class Program
+    public class Program
     {
         private static void Main(string[] args)
         {
@@ -16,6 +16,11 @@ namespace MyFirstApplication
             Console.WriteLine("New Feature Changes");
             Console.WriteLine("New Feature Changes 2");
             Console.WriteLine("New Feature Changes 3");
+        }
+
+        public static int Addition(int a, int b)
+        {
+            return a + b;
         }
     }
 

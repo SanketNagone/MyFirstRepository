@@ -16,16 +16,48 @@ namespace MyFirstApplication
             Console.WriteLine("New Feature Changes");
             Console.WriteLine("New Feature Changes 2");
             Console.WriteLine("New Feature Changes 3");
+
+
+
+            double a = 89.00;
+            if (a == 0d)
+            {
+                var today = DateTime.Now;
+                Console.Write(today.ToString());
+            }
         }
 
         public static int Addition(int a, int b)
         {
             return a + b;
+
+
+
         }
+
+
     }
 
 
     public class TestSonar
+    {
+        int hascode = 0;
+        public List<String> names { get; set; }
+
+        public override int GetHashCode()
+        {
+            foreach (string name in names)
+            {
+                hascode += name.GetHashCode();
+            }
+
+            return hascode;
+        }
+
+    }
+
+
+    public class TestSonarQaulity
     {
         int hascode = 0;
         public List<String> names { get; set; }

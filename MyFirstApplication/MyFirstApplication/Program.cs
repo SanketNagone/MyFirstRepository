@@ -55,4 +55,22 @@ namespace MyFirstApplication
         }
 
     }
+
+
+    public class TestSonarQaulity
+    {
+        int hascode = 0;
+        public List<String> names { get; set; }
+
+        public override int GetHashCode()
+        {
+            foreach (string name in names)
+            {
+                hascode += name.GetHashCode();
+            }
+
+            return hascode;
+        }
+
+    }
 }
